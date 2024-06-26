@@ -1,0 +1,117 @@
+body
+{
+    background-color:rgb(245,245,247);
+}
+.menu
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+}
+
+.imagenes
+{
+ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+li{
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+
+.container h1{
+    margin-left: 30px;
+    font-size: 56px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.0714285714;
+    font-weight: 600;
+}
+
+
+
+.imagen
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 75vh;
+    width: 90%;
+    margin: 0 auto; 
+    position: relative;
+    object-fit: cover;
+    border-radius: 50px;
+   
+}
+.imagen img {
+    width: 100%; /* ancho del 100% */
+    height: 100%; /* alto del 100% */
+    border-radius: 50px;
+    object-fit: cover; /* ajustar la imagen al tamaño del contenedor */
+  }
+
+.imagen h3 
+{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 20px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serifSF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.textoip
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    flex-direction: column;
+    
+}
+
+.con
+{
+    width: 50%;
+   
+    text-align: center;
+}
+
+.con h3
+{
+    color: white;
+    font-size: 30px;
+    text-align: center ;
+    padding-top: 20px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serifSF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 10px;
+    z-index: 10;
+    
+}
+
+.con button
+{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius:30px;
+    margin-top: 0px; /* Agrego margin-top para separar del texto */
+    cursor: pointer;
+}
+
